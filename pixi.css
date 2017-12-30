@@ -1,0 +1,69 @@
+body {
+    background-image: url("https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.darrelpontejo.com%2Fwp-content%2Fuploads%2F2017%2F04%2Fweb-developer.jpg&f=1");
+    color: white;
+    background-color: teal;
+    width: 95%;
+    position: relative;
+    top: 10px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+}
+p.italic {
+    font-style: italic;
+}
+p.fantasy {
+    font-family:serif, fantasy;
+}
+#conte {
+    background-color:red;
+}
+.bolder{
+    background-color: LightSkyBlue;
+}
+
+p.center {
+    text-align: center;
+}
+
+h2.center {
+    text-align: center;
+    font-family: monospace;
+}
+
+div {
+    /*Solo se hereda cuando se escribe compleo el tag*/
+    font-weight: bolder;
+}
+
+footer {
+    text-align: right;
+    font-size: 100%;
+}
+/*Tablas*/
+.top {
+    vertical-align: top;
+}
+.middle {
+    vertical-align: middle;
+}
+.bottom {
+    vertical-align: bottom;
+}
+
+/*El texto en el div azul ligero*/
+.paragraph {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.main {
+    height: 150px;
+    width: 100%;
+    background-color: LightSkyBlue;
+    display: inline-table;
+    background-image: url("https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fimages.huffingtonpost.com%2F2016-11-03-1478193304-6800403-webdev.jpg&f=1");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+}
