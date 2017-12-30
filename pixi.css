@@ -8,6 +8,12 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center center;
+    background-size: cover;
+    margin: 0;
+    padding:0;
+    left: 30px;
+    font-size: 120%;
+    
 }
 p.italic {
     font-style: italic;
@@ -66,4 +72,7 @@ footer {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center center;
+    background-size: cover;
+    margin: 0;
+    padding:0;    
 }
