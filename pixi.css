@@ -1,7 +1,7 @@
 body {
     background-image: url("https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.darrelpontejo.com%2Fwp-content%2Fuploads%2F2017%2F04%2Fweb-developer.jpg&f=1");
     color: white;
-    background-color: teal;
+    background-color: white;
     width: 95%;
     position: relative;
     top: 10px;
@@ -11,7 +11,7 @@ body {
     background-size: cover;
     margin: 0;
     padding:0;
-    left: 30px;
+    left: 1.6%;
     font-size: 120%;
     
 }
@@ -64,7 +64,7 @@ footer {
 }
 
 .main {
-    height: 150px;
+    height: 24%;
     width: 100%;
     background-color: LightSkyBlue;
     display: inline-table;
@@ -75,4 +75,53 @@ footer {
     background-size: cover;
     margin: 0;
     padding:0;    
+}
+
+.main2{
+    background-image: url("https://images.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.localseoexperts.net%2Fwp-content%2Fuploads%2F2017%2F06%2Fweb-developer-at-work-1.jpg&f=1");
+    height: 150;
+    width: 100%;
+    background-color: LightSkyBlue;
+    display: inline-table;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    margin: 0;
+    padding:0; 
+
+}
+
+#contenedor {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+    display: block;
+}
+
+#contenedor iframe,
+#contenedor object,
+#contenedor embed {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 99.6%;
+     height: 92%;
+}
+
+
+#top {
+    vertical-align: top;
+    font-size: 120%;
+
+}
+#minor {
+    font-size: 85%;
+    color: white;
+}
+
+.jumbotron {
+    height: 120%;
 }
